@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vh and Vw Units</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      header {
+        background: #333 url('https://source.unsplash.com/weekly?cat') no-repeat
+          center center/cover;
+        color: #fff;
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        padding: 2rem;
+        padding-top: 15rem;
+      }
+      header h1 {
+        font-size: 3rem;
+      }
+      header p {
+        margin: 3rem 0;
+        font-size: 1.2rem;
+        color: #3e404e;
+      }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #f4f4f4;
+        padding: 0.75rem 2rem;
+        color: #333;
+        margin-top: 5rem;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #181726;
+        color: #d2dce5;
+      }
+      section {
+        padding: 2rem;
+        text-align: center;
+      }
+      @media (max-height: 450px) {
+        header {
+          padding-top: 5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to out website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+        distinctio quis similique adipisci in tenetur.
+      </p>
+      <a href="#" class="btn">Find Out More</a>
+    </header>
+    <section>
+      <h3>About Our Company</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo
+        aut commodi, provident doloribus autem illo asperiores magnam fugiat
+        repellendus delectus! Deserunt, quisquam voluptate saepe aut suscipit
+        similique praesentium ullam, explicabo iusto quod deleniti fugit fuga
+        incidunt, assumenda error ex est sed dicta beatae laboriosam. Ut
+        dignissimos doloremque alias molestiae?
+      </p>
+    </section>
+  </body>
+</html>
